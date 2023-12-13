@@ -15,7 +15,7 @@ import numpy as np
 import pandas as pd
 
 
-def load(model, dll='vendll32.dll'):
+def load(model, dll='vendll64.dll'):
     """Load compiled Vensim model using the Vensim DLL.
 
     Parameters
